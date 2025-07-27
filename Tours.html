@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recorridos - La Paz B.C.S.</title>
+  <link rel="stylesheet" href="DiseñoTours.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <div class="container">
+      <div class="logo">RECORRIDOS</div>
+      <div class="burger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO PRINCIPAL -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Vacacionando por La Paz, Baja California Sur</h1>
+      <p>Playa y desierto en un mismo destino</p>
+      <a href="#recorridos" class="btn">Explora recorridos</a>
+    </div>
+  </section>
+
+  <!-- DESCRIPCIÓN DEL TOUR -->
+  <section class="section">
+    <div class="container">
+      <h2>Comunicate Con Nosotros</h2>
+      <p>
+        Viajas a La Paz y quieres disfrutar al máximo tu estancia comunícate con 
+        nosotros te recibimos desde tu llegada al aeropuerto y empieza a disfrutar 
+        de nuestras espectaculares playas, pueblos mágicos y los tradicionales paseos 
+        a la isla espíritu santo y el arco de cabo san Lucas
+      </p>
+      <br>
+      <h2>Conoce Nuestro Tour</h2>
+      <p>
+        Descubre los destinos más emblemáticos de Baja California Sur: desde la icónica playa <strong>Balandra</strong> y <strong>Tecolote</strong>,
+        hasta encantadores pueblos mágicos como <strong>Todos Santos</strong>, <strong>El Triunfo</strong> y <strong>Loreto</strong>.
+        Disfruta también de un paseo al <strong>Arco de Cabo San Lucas</strong> y la maravillosa <strong>Isla Espíritu Santo</strong>.
+      </p>
+    </div>
+  </section>
+
+  <!-- DETALLES DE TRANSPORTE -->
+  <section class="section alt">
+    <div class="container">
+      <h2>¿Qué incluye el transporte?</h2>
+      <ul>
+        <li>Del aeropuerto al hotel</li>
+        <li>Del hotel a las actividades</li>
+        <li>Regreso de actividades al hotel</li>
+        <li>Del hotel al aeropuerto</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- IMÁGENES DE REFERENCIA -->
+  <section id="referencias" class="section">
+    <div class="container">
+      <h2 class="section-title">Imágenes de Referencia</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="Lancha.jpeg" alt="Paseo a Isla Espíritu Santo" />
+          <div class="card-body"><h3>Lancha de Transporte</h3></div>
+        </article>
+        <article class="card">
+          <img src="HotelCalifornia.jpeg" alt="Hotel California en Todos Santos" />
+          <div class="card-body"><h3>Hotel California</h3></div>
+        </article>
+        <article class="card">
+          <a href="LosCabos.html">
+            <img src="ArcoLosCabos.jpeg" alt="El Arco de Los Cabos" />
+          </a>
+          <div class="card-body"><h3>Arco de Los Cabos</h3></div>
+        </article>
+        <article class="card">
+          <img src="ArbolBalandra.jpeg" alt="El hongo de Balandra" />
+          <div class="card-body"><h3>Hongo de Balandra</h3></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE RECORRIDOS -->
+  <section id="recorridos" class="section">
+    <div class="container">
+      <h2 class="section-title">Recorridos</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="IslaEspirituSanto.jpg" alt="Isla Espíritu Santo" />
+          <div class="card-body">
+            <h3>Isla Espíritu Santo</h3>
+            <p>Descubre este paraíso natural lleno de fauna marina y paisajes únicos.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="PlayaBalandra.jpg" alt="Playa Balandra" />
+          <div class="card-body">
+            <h3>Playa Balandra</h3>
+            <p>Conoce el famoso hongo de piedra en aguas cristalinas.</p>
+          </div>
+        </article>
+        <article class="card">
+          <a href="LosCabos.html">
+            <img src="ArcoLosCabos.webp" alt="Arco de Los Cabos" />
+          </a>
+          <div class="card-body">
+            <h3>Arco de Los Cabos</h3>
+            <p>Embarcaciones con fondo de cristal te llevarán hasta este ícono natural.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="TodosSantos.jpg" alt="Pueblos Mágicos" />
+          <div class="card-body">
+            <h3>Pueblos Mágicos</h3>
+            <p>Explora la historia y cultura de la región en pueblos como Todos Santos.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE PAQUETES Y ORGANIZACIÓN -->
+  <section id="paquetes" class="section alt">
+    <div class="container">
+      <h2>¿Te gustaría hacer más de una actividad?</h2>
+      <p>Organizamos tu itinerario por días para que disfrutes al máximo cada recorrido.</p>
+      <div class="hero-content">
+        <a href="https://wa.me/526121489308" target="_blank" class="btn">Solicita más información</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2 class="section-title">Contáctanos</h2>
+      <p>¿Planeas visitar La Paz? Contáctanos y vive experiencias inolvidables desde tu llegada al aeropuerto, hasta cada una de nuestras playas, pueblos mágicos y aventuras marinas.</p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <h3>Teléfono</h3>
+          <p>612 161 1526</p>
+        </div>
+        <div class="contact-item">
+          <h3>WhatsApp</h3>
+          <p>612 148 9308</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Recorridos La Paz. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JS MENÚ HAMBURGUESA -->
+  <script>
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links');
+
+    burger?.addEventListener('click', () => {
+      navLinks?.classList.toggle('nav-active');
+      burger.classList.toggle('toggle');
+    });
+  </script>
+
+  <!-- Modal para mostrar imagen en grande -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+<script>
+  // Obtener elementos
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImg");
+  const close = document.querySelector(".close");
+
+  // Aplicar evento a cada imagen de las cards
+  document.querySelectorAll(".card img").forEach(img => {
+    img.addEventListener("click", () => {
+      modal.style.display = "block";
+      modalImg.src = img.src;
+      modalImg.alt = img.alt;
+    });
+  });
+
+  // Cerrar el modal
+  close.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  // También cerrar al hacer clic fuera de la imagen
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+</script>
+</body>
+</html>

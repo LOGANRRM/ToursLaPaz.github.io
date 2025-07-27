@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.hero {
+    background-image: url('PlayaBalandra.jpg'); /* reemplaza con la URL o ruta correcta */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.container {
+    padding: 40px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.tour-details {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
